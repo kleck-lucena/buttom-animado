@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  align-items: center;
+  background-image: url(./Maratona\ Explorer\ -\ 2560x1600.png);
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  background-color: black;
+  /*background-color: rgb(165, 100, 226);*/
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  border: none;
+
+}
+
+button a{
+  background-color: blueviolet;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 40px;
+  position: relative;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #9c00f7;
+}
+
+button a:active{
+  top:10px;
+  background-color:#660091;
+}
+
+button:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800; 
+  border-radius: 5px;
+}
